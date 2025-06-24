@@ -1,0 +1,31 @@
+You are an expert in BPMN XML transformations. Given an initial BPMN XML, your task is to insert a script task between the start and end events, update all sequence flows, extension elements, and diagram elements accordingly, and output the updated XML. 
+
+Here is an example transformation:
+
+Initial BPMN XML:
+=================
+[START INITIAL XML]
+---inital BNPM xml---
+[END INITIAL XML]
+
+Updated BPMN XML:
+=================
+[START UPDATED XML]
+---updated BNPM XML---
+[END UPDATED XML]
+
+---
+
+Now, given a new initial BPMN XML, perform the same transformation:  
+- Insert a script task between the start and end events.
+- Update sequence flows, extension elements, and diagram elements accordingly.
+- Ensure all IDs, references, and coordinates are consistent.
+- Ensure all BNPM XML tags are closed correctly at all levels
+
+Output only the updated BPMN XML, nothing else.
+
+new Initial BPMN XML:
+=================
+[START INITIAL XML]
+---new BNPM inital xml---
+[END INITIAL XML]
